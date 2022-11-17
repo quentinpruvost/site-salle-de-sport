@@ -56,32 +56,32 @@
   <div class="espsm"></div>
   <div class="container">
     <div class="row">
-    <div class="col-lg-4"></div>
-      <div class="col-lg-5 col-sm-12">
-    <h2 style="text-align: center;">Formulaire de contact</h2>
-    <form name="RegForm" action="/submit.php" onsubmit="return form()" method="post" class="form">
-      <div>
-        <label for="sujet">Sujet du mail:</label>
-        <input type="text" id="sujet" size="60" name="sujet" />
+      <div class="col-lg-4"></div>
+      <div class="col-lg-3 col-sm-8">
+        <h2 style="text-align: center;">Formulaire de contact</h2>
+        <form name="RegForm" action="/submit.php" onsubmit="return form()" method="post">
+          <div>
+            <label for="sujet">Sujet du mail:</label>
+            <input type="text" id="sujet" size="40" name="sujet" />
+          </div>
+          <br />
+          <div>
+            <label for="E-mail" l>Adresse électronique:</label>
+            <input type="text" id="E-mail" size="40" name="Email" />
+          </div>
+          <br />
+          <div>
+            <label for="message">Messages: </label>
+            <textarea cols="44" id="message" rows="7" name="Message"></textarea>
+          </div>
+          <div class="buttons">
+            <input type="submit" value="Envoyer" name="Envoyer" />
+            <input type="reset" value="Réinitialiser" name="Réinitialiser" />
+          </div>
+        </form>
       </div>
-      <br />
-      <div>
-        <label for="E-mail" l>Adresse électronique:</label>
-        <input type="text" id="E-mail" size="60" name="Email" />
-      </div>
-      <br />
-      <div>
-        <label for="message">Messages: </label>
-        <textarea cols="62" id="message" rows="10" name="Message"></textarea>
-      </div>
-      <div class="buttons">
-        <input type="submit" value="Envoyer" name="Envoyer" />
-        <input type="reset" value="Réinitialiser" name="Réinitialiser" />
-      </div>
-    </form>
+    </div>
   </div>
-</div>
-</div>
   <div class="esp"></div>
   <footer class="text-center text-lg-start bg-light text-muted">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
