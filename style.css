@@ -1,0 +1,214 @@
+.bandhead{
+    background-color: #E1E1E1;
+    height: 30px;
+    width: 100%;
+}
+.btn_slider {
+    position : absolute;
+	bottom: 25%;
+	right: 26%;
+    z-index: 9999;
+}
+.textparala {
+    position : absolute;
+	bottom: 25%;
+	right: 32%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, .4);
+    color: aliceblue;
+    border-radius: 10%;
+}
+.font-nav{
+    font-size: 17px;
+}
+.esp{
+    height: 110px;
+}
+.espsm{
+    height: 60px;
+}
+#imgsport {
+    width: 100%;
+    height: auto;
+}
+hr{
+    height: 3px;
+    background-color: black;
+}
+.parallax {
+    background-image: url("https://cdn-europe1.lanmedia.fr/var/europe1/storage/images/europe1/sport/covid-19-a-cinq-jours-de-la-reouverture-les-salles-de-sport-dans-les-starting-blocks-4049598/57251990-1-fre-FR/Covid-19-a-cinq-jours-de-la-reouverture-les-salles-de-sport-dans-les-starting-blocks.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .about {
+    font-size: xx-large;
+ }
+ .profile-card-2 {
+    max-width: 300px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.profile-card-2 img {
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-name {
+    position: absolute;
+    left: 30px;
+    bottom: 90px;
+    font-size: 30px;
+    color: #FFF;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    color: #FFF;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-username {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    color: #FFF;
+    font-size: 13px;
+    transition: all linear 0.25s;
+}
+
+.profile-card-2 .profile-icons .fa {
+    margin: 5px;
+}
+
+.profile-card-2:hover img {
+    filter: grayscale(100%);
+}
+
+.profile-card-2:hover .profile-name {
+    bottom: 180px;
+}
+
+.profile-card-2:hover .profile-username {
+    bottom: 60px;
+}
+
+.profile-card-2:hover .profile-icons {
+    right: 40px;
+}
+.contact-form-wrapper {
+    padding: 100px 0;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #f33fb0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f23292;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .form {
+    margin-left: 70px;
+    font-weight: bold;
+    text-align: left;
+    font-family: sans-serif, bold, Arial, Helvetica;
+    font-size: 14px;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  div input {
+    margin-right: 10px;
+  }
+  form {
+    margin: 0 auto;
+    width: 600px;
+  }
+  form input {
+    padding: 10px;
+  }
+  form select {
+    background-color: #ffffff;
+    padding: 5px;
+  }
+  form textarea {
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  form label {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
